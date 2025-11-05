@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         Button button2 = findViewById(R.id.buttonChangeColor);
         button2.setOnClickListener(v -> textView.setTextColor(getResources().getColor(android.R.color.holo_red_dark)));
+        Button button3 = findViewById(R.id.buttonChangeBackground);
+        button3.setOnClickListener(v -> textView.setBackgroundColor(getResources().getColor(android.R.color.holo_green_light)));
 
     }
 }
